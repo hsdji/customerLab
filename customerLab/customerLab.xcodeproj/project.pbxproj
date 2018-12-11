@@ -13,7 +13,7 @@
 		D5D0AF5821BFECF600938B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D0AF5721BFECF600938B04 /* Assets.xcassets */; };
 		D5D0AF5B21BFECF600938B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D0AF5921BFECF600938B04 /* LaunchScreen.storyboard */; };
 		D5D0AF5E21BFECF600938B04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D0AF5D21BFECF600938B04 /* main.m */; };
-		D5D0AF6721BFED4300938B04 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D0AF6621BFED4300938B04 /* test.m */; };
+		D5D0AF6721BFED4300938B04 /* PFLabHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = D5D0AF6621BFED4300938B04 /* PFLabHelp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		D5D0AF5A21BFECF600938B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5D0AF5C21BFECF600938B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5D0AF5D21BFECF600938B04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D5D0AF6521BFED4300938B04 /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
-		D5D0AF6621BFED4300938B04 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		D5D0AF6521BFED4300938B04 /* PFLabHelp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFLabHelp.h; sourceTree = "<group>"; };
+		D5D0AF6621BFED4300938B04 /* PFLabHelp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFLabHelp.m; sourceTree = "<group>"; };
 		D5D0AF6921BFED8D00938B04 /* PFHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,8 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				D5D0AF6821BFED7600938B04 /* header */,
-				D5D0AF6521BFED4300938B04 /* test.h */,
-				D5D0AF6621BFED4300938B04 /* test.m */,
+				D5D0AF6521BFED4300938B04 /* PFLabHelp.h */,
+				D5D0AF6621BFED4300938B04 /* PFLabHelp.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5D0AF5321BFECF500938B04 /* ViewController.m in Sources */,
-				D5D0AF6721BFED4300938B04 /* test.m in Sources */,
+				D5D0AF6721BFED4300938B04 /* PFLabHelp.m in Sources */,
 				D5D0AF5E21BFECF600938B04 /* main.m in Sources */,
 				D5D0AF5021BFECF500938B04 /* AppDelegate.m in Sources */,
 			);
