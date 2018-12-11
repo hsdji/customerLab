@@ -9,7 +9,7 @@
 #import "test.h"
 
 @implementation test
-+(void)load{
-    NSLog(@"加载了");
++(void)test01{
+    NSLog(@"进来了");
 }
 @end
