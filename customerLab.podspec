@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    自定义Lab 可自动计算行高,返回行高,支持链接
 DESC
-  spec.homepage     = "https://github.com/hsdji/customerLab"
+  spec.homepage     = "https://github.com/hsdji/testPersionalcocoapods"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
