@@ -46,7 +46,6 @@
 		D5D0AF4221BFECF500938B04 = {
 			isa = PBXGroup;
 			children = (
-				D5D0AF6421BFED2800938B04 /* Classes */,
 				D5D0AF4D21BFECF500938B04 /* customerLab */,
 				D5D0AF4C21BFECF500938B04 /* Products */,
 			);
@@ -63,6 +62,7 @@
 		D5D0AF4D21BFECF500938B04 /* customerLab */ = {
 			isa = PBXGroup;
 			children = (
+				D5D0AF6421BFED2800938B04 /* Classes */,
 				D5D0AF4E21BFECF500938B04 /* AppDelegate.h */,
 				D5D0AF4F21BFECF500938B04 /* AppDelegate.m */,
 				D5D0AF5121BFECF500938B04 /* ViewController.h */,
@@ -83,8 +83,7 @@
 				D5D0AF6521BFED4300938B04 /* test.h */,
 				D5D0AF6621BFED4300938B04 /* test.m */,
 			);
-			name = Classes;
-			path = ../Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		D5D0AF6821BFED7600938B04 /* header */ = {
