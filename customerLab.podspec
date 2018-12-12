@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
   spec.description  = <<-DESC
                    自定义Lab 可自动计算行高,返回行高,支持链接
 DESC
-  spec.homepage     = "https://github.com/hsdji/testPersionalcocoapods"
+  spec.homepage     = "https://github.com/hsdji/customerLab"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -90,7 +90,7 @@ DESC
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "https://github.com/hsdji/customerLab/Classes/**/*.{h,m}"
+  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
   spec.public_header_files = "Classes/**/*.h"
