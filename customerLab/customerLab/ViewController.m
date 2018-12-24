@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "PFHeader.h"
 @interface ViewController ()
+
 //  release
 @end
 
@@ -18,7 +19,7 @@ UISlider *slider;
 - (void)viewDidLoad {
     [super viewDidLoad];
     lab = [[UILabel alloc] init];
-    NSString *testStr = @"这里就是一段测试文字，可以更具自己的需要填写数据,使用时间如果是多行展示，那么请设置numberOfLines为0,在调用获取size之前，请设置好lab的显示样式这里就是一段测试文字，可以更具自己的需要填写数据,使用时间如果是多行展示，那么请设置numberOfLines为0,在调用获取size之前，请设置好lab的显示样式这里就是一段测试文字，可以更具自己的需要填写数据,使用时间如果是多行展示，那么请设置numberOfLines为0,在调用获取size之前，请设置好lab的显示样式这里就是一段测试文字，可以更具自己的需要填写数据,使用时间如果是多行展示，那么请设置numberOfLines为0,在调用获取size之前，请设置好lab的显示样式";
+    NSString *testStr = @"   git flow feature finish task_001";
     lab.backgroundColor = [UIColor redColor];
     lab.numberOfLines = 0;
     CGFloat maxLabWith = 120;
